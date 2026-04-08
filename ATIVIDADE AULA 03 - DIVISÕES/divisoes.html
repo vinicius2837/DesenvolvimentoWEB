@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Conceito de Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .card {
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin: 15px 0;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: #2f3fb1;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      background-color: #1f2a7a;
+    }
+
+    .blue {
+      background-color: #9bb7d4;
+    }
+
+    .gray {
+      background-color: #b3b3b3;
+    }
+
+    .red {
+      background-color: #e89a9a;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Conceito de cards</h2>
+
+  <div class="container">
+    
+    <div class="card blue">
+      <h3>Primeiro Item</h3>
+      <img src="imagens/Caramelo-Photoroom.png" alt="Cachorro">
+      <p>Sou viralatas caramelo, perseguidor de motoqueiros e ciclistas...</p>
+      <a href="#">Saiba mais</a>
+    </div>
+
+    <div class="card gray">
+      <h3>Segundo Item</h3>
+      <img src="imagens/coragem.jpg.jpeg" alt="Coragem">
+      <p>Coragem era um desenho animado exibido pelo SBT que fez muito sucesso</p>
+      <a href="#">Saiba mais</a>
+    </div>
+
+    <div class="card red">
+      <h3>Terceiro Item</h3>
+      <img src="imagens/INTRIGADO.jfif" alt="Intrigado">
+      <p>Geralmente quando algo nos deixa sem reação ou pensativos dizemos que estamos intrigados.</p>
+      <a href="#">Saiba mais</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
